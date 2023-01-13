@@ -1,0 +1,108 @@
+
+section{
+  display: flex;
+  flex-direction: column;
+  margin-left:93px;
+  margin-right:-7px;  
+  height: 450px;
+  background-color: none;
+  justify-content: space-between;
+  border-radius: 2px;
+}
+
+span{
+  font-size: 20px;
+  cursor: pointer;
+}
+span:hover{
+  color: yellow;
+  transition: color 0.15s;
+  text-decoration: underline;
+  text-shadow: 6px 6px 5px  rgb(0,0,0,1);
+}
+span:hover:active{
+  opacity: 0.2;
+  transition: opacity 0.15s;
+}
+.courses-done{
+  background-color: rgb(33, 119, 33);
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  right: 0;
+  left: 100px;
+  align-items: center;
+  justify-content: center;
+  border:  solid 1px rgb(27, 27, 27);
+  border-radius: 60px;
+  margin: 20px 20px 0 20px;
+}
+.fee-statement{
+  background-color: goldenrod;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  right: 0;
+  left: 100px;
+  align-items: center;
+  justify-content: center;
+  border:  solid 1px rgb(27, 27, 27);
+  border-radius: 60px;
+  margin: 0 20px 0 20px;
+}
+.timetable{
+  background-color: maroon;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  right: 0;
+  left: 100px;
+  align-items: center;
+  justify-content: center;
+  border:  solid 1px rgb(27, 27, 27);
+  border-radius: 60px;
+  margin: 0 20px  20px 20px
+}
+.courses-done:hover{
+  background-color: rgb(0, 0, 168);
+  cursor: -webkit-grab;
+  transition: height border-radius background-color 0.15s;
+  transition: box-shadow 0.5s;
+  height: 130px;
+  border-radius: 65px;
+  box-shadow:12px 10px 10px inset rgb(0,0,0,0.5), 12px 10px 10px rgb(0,0,0,0.5);
+}
+.fee-statement:hover{
+  background-color: indigo;
+  cursor: -webkit-grab;
+  transition:height border-radius background-color 0.15s;
+  transition: box-shadow 0.5s;
+  height: 130px;
+  border-radius: 65px;
+  box-shadow:12px 10px 10px inset rgb(0,0,0,0.5), 12px 10px 10px rgb(0,0,0,0.5);
+}
+.timetable:hover{
+  background-color: saddlebrown;
+  cursor: -webkit-grab;
+  transition: height border-radius background-color 0.15s;
+  transition: box-shadow 0.5s;
+  height: 130px;
+  border-radius: 65px;
+  box-shadow:12px 10px 10px inset rgb(0,0,0,0.5), 12px 10px 10px rgb(0,0,0,0.5);
+}
+
+
+.search-bar{
+  height: 25px;
+  width: 300px;
+  margin-left: -8px;
+  border-radius: 4px;
+  border: 1px solid rgb(73, 73, 73);
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 14px;
+ font-weight: bold;
+}
+.search-bar::placeholder{
+  font-weight: bold;
+  color: black; 
+}

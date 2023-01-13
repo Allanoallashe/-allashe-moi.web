@@ -1,0 +1,32 @@
+
+body{
+  height: 1000px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: rgb(252, 252, 252);
+  background-image: url('my channel-0.jpeg');
+  background-size:cover;
+  background-attachment: fixed; 
+  background-repeat: no-repeat;
+  
+}
+button{
+  height: 35px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  color: white;
+}
+button:hover{
+  cursor: pointer;
+  opacity: 0.6;
+  transition: opacity 0.15s;
+}
+button:hover:active{
+  opacity: 0.2;
+  transition: opacity 0.15s;
+}
+
+
+

@@ -1,0 +1,35 @@
+
+footer{
+  position: static;
+  display: flex;
+  flex-direction: row;
+  margin:20px 0 20px 0;
+  height: 150px;
+  justify-content: center; 
+  margin-left: 92px;
+}
+
+.profile-picture{
+  display: flex;
+  flex-direction: column;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  border: solid 1px black;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.inner-box{
+  display: flex;
+  height: 150px;
+  width: 150px;
+  align-items: center;
+  justify-content: center;
+}
+.channel-picture{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+

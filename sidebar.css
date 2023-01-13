@@ -1,0 +1,86 @@
+nav{
+  background-color: rgb(0, 99, 0);
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  margin-top: 50px;
+  width:100px;
+  top: 0;
+  left: 0;
+  bottom:40px;
+  align-items:center;
+  justify-content: space-between;
+  border-right: solid 1px rgb(194, 194, 194);
+}
+
+.darshboard,
+.financials,
+.academics,
+.examination,
+.accomodation,
+.password{
+ background-color: rgb(126, 126, 126);
+ height: 30px;
+ width: 40px;
+ margin: 20px 0 20px 0;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ position: relative;
+ cursor: pointer;
+}
+
+.darshboard-image:hover,
+.financials-image:hover,
+.academics-image:hover,
+.examination-image:hover,
+.accomodation-image:hover,
+.password-image:hover{
+  opacity: 0.5;
+}
+
+.darshboard-image,
+.financials-image,
+.examination-image,
+.academics-image,
+.accomodation-image,
+.password-image{
+  height: 20px;
+}
+.darshboard .tooltip,
+.financials .tooltip,
+.examination .tooltip,
+.academics .tooltip,
+.accomodation .tooltip{
+  position: absolute;
+  bottom: -30px;
+  background-color: rgb(170, 170, 170);
+  color: white;
+  border-radius: 1px;
+  font-size: 12px;
+  opacity: 0;
+  pointer-events: none;
+  padding: 4px 8px 4px 8px;
+}
+
+.darshboard:hover .tooltip,
+.financials:hover .tooltip,
+.examination:hover .tooltip,
+.academics:hover .tooltip,
+.accomodation:hover .tooltip,
+.password:hover .tooltip{
+  opacity: 1;
+  transition: opacity 0.15s;
+}
+.password .tooltip{
+  position: absolute;
+  top: -30px;
+  background-color: rgb(170, 170, 170);
+  color: white;
+  border-radius: 1px;
+  font-size: 12px;
+  opacity: 0;
+  pointer-events: none;
+  padding: 4px 8px 4px 8px;
+}
+

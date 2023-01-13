@@ -1,0 +1,20 @@
+
+main{
+  background-color:  rgb(0, 99, 0);
+  height: 40px;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+  border-top: solid 1px rgb(173, 173, 173);
+  
+}
+.main{
+font-style: italic;
+font-size: 18px;
+margin-left: 90px;
+}
