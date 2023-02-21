@@ -1,8 +1,10 @@
 
-<!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>@Allano Allashe&#183;com</title>
 </head>
   <!-- the files are linked with html -->
@@ -71,27 +73,30 @@
     <nav> <!--semantic element representing sidebar-->
 
       <div class="darshboard">
-        <img class="darshboard-image" src="images/darshboard.png">
+        <i class="fa-solid fa-gauge"></i>
+        <!-- <img alt="/" class="darshboard-image" src="images/darshboard.png"> -->
         <div class="tooltip">Darshboard</div>
       </div>
       <div class="financials">
-        <img class="financials-image" src="images/financials.png">
+        <i class="fa-light fa-money-bill"></i>
+        <!-- <img alt="/" class="financials-image" src="images/financials.png"> -->
         <div class="tooltip">Financials</div>
       </div>
       <div class="academics">
-        <img class="academics-image" src="images/academics.png">
+        <i class="fa-thin fa-graduation-cap"></i>
+        <!-- <img alt="/" class="academics-image" src="images/academics.png"> -->
         <div class="tooltip">Academics</div>
       </div>
       <div class="examination">
-        <img class="examination-image" src="images/examination.png">
+        <img alt="/" class="examination-image" src="images/examination.png">
         <div class="tooltip">Examination</div>
       </div>
       <div class="accomodation">
-        <img class="accomodation-image" src="images/accomodation.png">
+        <img alt="/" class="accomodation-image" src="images/accomodation.png">
         <div class="tooltip">Accomodation</div>
       </div>
       <div class="password">
-        <img class="password-image" src="images/password.png">
+        <img alt="/" class="password-image" src="images/password.png">
         <div class="tooltip">Password</div>
       </div>
       
@@ -109,8 +114,11 @@
             <!--search bar-->
 
             <div class="search__container">
-              <input type="text" placeholder="Search" class="search-bar" >
-              <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+             <form action="search.php" method="post">
+              <input type="email" name="email" placeholder="Search" class="search-bar" >
+              <button type="submit"><i class="fa-sharp fa-solid fa-magnifying-glass"></i></button>
+              
+             </form>
             </div>
       
     </div>
@@ -118,7 +126,7 @@
     <footer> <!--semantic element representing the box containing the profile picture-->
       <div class="profile-picture">
         <div class="inner-box">
-          <img class="channel-picture" src="images/moi university.png">
+          <img alt="/" class="channel-picture" src="images/moi university.png">
         </div>
       </div>
     </footer>
